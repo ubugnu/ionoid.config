@@ -1,70 +1,83 @@
 {
-  "raspberry": [
-    {
-      "name": "Raspberry Pi Zero",
-      "filename": "raspberry-pi-zero",
-      "arch": "ARMv6"
-    },
-    {
-      "name": "Raspberry Pi Zero W",
-      "filename": "raspberry-pi-zero-w",
-      "arch": "ARMv6"
-    },
-    {
-      "name": "Raspberry Pi Zero W",
-      "filename": "raspberry-pi-zero-w",
-      "arch": "ARMv6"
-    },
-    {
-      "name": "Raspberry Pi 2 Model B",
-      "filename": "raspberry-pi-2-model-b",
-      "arch": "ARMv7"
-    },
-    {
-      "name": "Raspberry Pi 3 Model B",
-      "filename": "raspberry-pi-3-model-b",
-      "arch": "ARMv7"
-    },
-    {
-      "name": "Raspberry Pi 3 Model B+",
-      "filename": "raspberry-pi-3-model-b-plus",
-      "arch": "ARMv8-AArch64"
-    }
-  ],
-  "beaglebone": [
-    {
-      "name": "BeagleBone Black",
-      "filename": "beaglebone-black",
-      "arch": "ARMv7"
-    },
-    {
-      "name": "BeagleBone Green",
-      "filename": "beaglebone-green",
-      "arch": "ARMv7"
-    },
-    {
-      "name": "BeagleBone Green Wireless",
-      "filename": "beaglebone-green-w",
-      "arch": "ARMv7"
-    }
-  ],
-  "qemu": [
-    {
-      "name": "Qemu x86",
-      "filename": "qemu-x86",
-      "arch": "x86"
-    },
-    {
-      "name": "Qemu x86-64",
-      "filename": "qemu-x86-64",
-      "arch": "x86-64"
-    }
-  ],
-  "pc": [
-    {
-      "name": "PC",
-      "filename": "pc",
-      "arch": "x86"
-    }
-  ]
-}
+  "supported-devices": [
+  {
+    "brand": "raspberry",
+    "devices": [
+      {
+        "name": "Raspberry Pi Zero",
+        "filename": "raspberry-pi-zero",
+        "arch": "ARMv6"
+      },
+      {
+        "name": "Raspberry Pi Zero W",
+        "filename": "raspberry-pi-zero-w",
+        "arch": "ARMv6"
+      },
+      {
+        "name": "Raspberry Pi Zero W",
+        "filename": "raspberry-pi-zero-w",
+        "arch": "ARMv6"
+      },
+      {
+        "name": "Raspberry Pi 2 Model B",
+        "filename": "raspberry-pi-2-model-b",
+        "arch": "ARMv7"
+      },
+      {
+        "name": "Raspberry Pi 3 Model B",
+        "filename": "raspberry-pi-3-model-b",
+        "arch": "ARMv7"
+      },
+      {
+        "name": "Raspberry Pi 3 Model B+",
+        "filename": "raspberry-pi-3-model-b-plus",
+        "arch": "ARMv8-AArch64"
+      }
+    ]
+  },
+  {
+    "brand": "beaglebone",
+    "devices": [
+      {
+        "name": "BeagleBone Black",
+        "filename": "beaglebone-black",
+        "arch": "ARMv7"
+      },
+      {
+        "name": "BeagleBone Green",
+        "filename": "beaglebone-green",
+        "arch": "ARMv7"
+      },
+      {
+        "name": "BeagleBone Green Wireless",
+        "filename": "beaglebone-green-w",
+        "arch": "ARMv7"
+      }
+    ]
+  },
+  {
+    "brand": "qemu",
+    "devices": [
+      {
+        "name": "Qemu x86",
+        "filename": "qemu-x86",
+        "arch": "x86"
+      },
+      {
+        "name": "Qemu x86-64",
+        "filename": "qemu-x86-64",
+        "arch": "x86-64"
+      }
+    ]
+  },
+  {
+    "brand": "pc",
+    "devices": [
+      {
+        "name": "PC",
+        "filename": "pc",
+        "arch": "x86"
+      }
+    ]
+  }
+]}
