@@ -1,8 +1,13 @@
 {
-  "supported-devices": [
+  "raspberry": [
     {
       "name": "Raspberry Pi Zero",
       "filename": "raspberry-pi-zero",
+      "arch": "ARMv6"
+    },
+    {
+      "name": "Raspberry Pi Zero W",
+      "filename": "raspberry-pi-zero-w",
       "arch": "ARMv6"
     },
     {
@@ -21,6 +26,13 @@
       "arch": "ARMv7"
     },
     {
+      "name": "Raspberry Pi 3 Model B+",
+      "filename": "raspberry-pi-3-model-b-plus",
+      "arch": "ARMv8-AArch64"
+    }
+  ],
+  "beaglebone" [
+    {
       "name": "BeagleBone Black",
       "filename": "beaglebone-black",
       "arch": "ARMv7"
@@ -35,25 +47,24 @@
       "filename": "beaglebone-green-w",
       "arch": "ARMv7"
     },
-    {
-      "name": "Raspberry Pi 3 Model B+",
-      "filename": "raspberry-pi-3-model-b-plus",
-      "arch": "ARMv8-AArch64"
-    },
+  ],
+  "qemu": [
     {
       "name": "Qemu x86",
       "filename": "qemu-x86",
       "arch": "x86"
     },
     {
-      "name": "PC",
-      "filename": "pc",
-      "arch": "x86"
-    },
-    {
       "name": "Qemu x86-64",
       "filename": "qemu-x86-64",
       "arch": "x86-64"
+    }
+  ],
+  "pc": [
+    {
+      "name": "PC",
+      "filename": "pc",
+      "arch": "x86"
     }
   ]
 }
