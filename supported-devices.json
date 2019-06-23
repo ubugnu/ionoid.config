@@ -31,7 +31,7 @@
       "arch": "ARMv8-AArch64"
     }
   ],
-  "beaglebone" [
+  "beaglebone": [
     {
       "name": "BeagleBone Black",
       "filename": "beaglebone-black",
@@ -46,7 +46,7 @@
       "name": "BeagleBone Green Wireless",
       "filename": "beaglebone-green-w",
       "arch": "ARMv7"
-    },
+    }
   ],
   "qemu": [
     {
