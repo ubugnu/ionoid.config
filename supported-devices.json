@@ -14,11 +14,6 @@
         "arch": "ARMv6"
       },
       {
-        "name": "Raspberry Pi Zero W",
-        "filename": "raspberry-pi-zero-w",
-        "arch": "ARMv6"
-      },
-      {
         "name": "Raspberry Pi 2 Model B",
         "filename": "raspberry-pi-2-model-b",
         "arch": "ARMv7"
