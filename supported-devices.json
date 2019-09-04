@@ -74,5 +74,15 @@
         "arch": "x86"
       }
     ]
+  },
+  {
+    "brand": "incostartec",
+    "devices": [
+      {
+        "name": "pLILLY-A20",
+        "filename": "plilly-A20",
+        "arch": "armv7"
+      }
+    ]
   }
 ]}
