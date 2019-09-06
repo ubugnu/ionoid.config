@@ -79,7 +79,7 @@
     "brand": "incostartec",
     "devices": [
       {
-        "name": "pLILLY-A20",
+        "name": "Incostartec Hardware Vendor",
         "filename": "plilly-A20",
         "arch": "armv7"
       }
