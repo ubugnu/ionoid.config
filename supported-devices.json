@@ -66,16 +66,6 @@
     ]
   },
   {
-    "brand": "pc",
-    "devices": [
-      {
-        "name": "PC",
-        "filename": "pc",
-        "arch": "x86"
-      }
-    ]
-  },
-  {
     "brand": "incostartec",
     "devices": [
       {
